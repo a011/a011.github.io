@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *,
+        *::before,
+        *::after {
+            outline: 0;
+            box-sizing: border-box;
+            pointer-events: inherit;
+            -webkit-overflow-scrolling: touch;
+            -webkit-tap-highlight-color: transparent;
+            -ms-user-select: none;
+            -webkit-user-select: none;
+            user-select: none;
+            -webkit-user-drag: none;
+            user-drag: none;
+        }
+        html,
+        body {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            display: block;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: 0;
+        }
+        body {
+            background: gold;
+            font-family: 'Helvetica Neue', Helvetica, Roboto, 'Lantinghei SC', 'Microsoft Yahei', 'Hiragino Sans GB', Arial, sans-serif;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div style="height: 100px; width: 200%; color: #fff; background: red;">aaaaa</div>
+</body>
+</html>
